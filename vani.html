@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid and flexbox</title>
+   <style>
+    /* @import url('https://fonts.google.com/specimen/Poppins'); */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+img{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+section>div{
+  border-radius: 50px;
+}
+.flex-container {
+  margin: 130px auto;
+  width: 800px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  
+  /* margin-left: 30px; */
+}
+
+.flex-item-left {
+  /* margin-left: 20px; */
+  height: 300;
+  background-color: hsl(31, 77%, 52%);
+  padding: 10px;
+  flex: 20%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.flex-item-center {
+  background-color:hsl(184, 100%, 22%);
+  padding: 10px;
+  flex: 20%;
+}
+.flex-item-right {
+    background-color: hsl(179, 100%, 13%);
+    padding: 10px;
+    flex: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  article{
+  margin-left: 20px;
+  margin-right: 10px;
+  font-weight: 5px;
+  font-size:small;
+  line-height: 2.2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+h1{
+  margin-left: 20px;
+  font-family: big shoul;
+  font-family: 'Big Shoulders Display';
+}
+.btn1{
+  height: 40px;
+  width: 110px;
+  color:  hsl(31, 77%, 52%);
+  background-color:  rgba(255, 255, 255, 0.986);
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.btn2{
+  height: 40px;
+  width: 110px;
+  color:  hsl(31, 77%, 52%);
+  background-color:  rgba(255, 255, 255, 0.986);
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.btn3{
+  height: 40px;
+  width: 110px;
+  color:  hsl(31, 77%, 52%);
+  background-color:  rgba(255, 255, 255, 0.986);
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 375px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+   </style>
+</head>
+<body>
+
+<section>
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <img src="icon-sedans.svg" alt="">
+            <h1>SEDANS</h1>
+     
+            <article>Choose a sedan for its affordability 
+                and axcellent fuel economy, Ideal for cruising in the city or on your next road trip.</article>
+            <button class="btn1">Learn More</button>
+        </div>
+        <div class="flex-item-center">
+            <img src="icon-suvs.svg" alt="">
+            <h1>SUVS</h1>
+            <article>Take an SUV for its apcious interior, power, and versality, perfect for your next family vacation and off-road adventures.</article>
+            <button class="btn2">Learn More</button>
+        </div>
+        <div class="flex-item-right">
+            <img src="icon-suvs.svg" alt="">
+            <h1>LUXURY</h1>
+            <article>Cruise in the best car brand without the bloated price. Enjoy the enhanced comford of a luxury rental and arrive in style.</article>
+            <button class="btn3">Learn More</button>
+        </div>
+      </div>
+</section>
+       
+
+        
+ <script>
+    var car = car;
+console.log(car);
+ </script>
+
+
+</body>
+</html>
